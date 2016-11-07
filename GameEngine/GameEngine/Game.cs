@@ -11,7 +11,7 @@ namespace GameEngine
         private IRenderer m_renderer;
 
         // Constructor
-        Game( IRenderer renderer )
+        public Game( IRenderer renderer )
         {
             m_renderer = renderer;
         }
