@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-    class Program
+     public class OpenGLRender:IRender
     {
-        static void Main(string[] args)
+        public void Render()
         {
-         
-
-            OpenGLRender g1 = new OpenGLRender();
-            g1.Render();
+            Console.WriteLine("Open GL Running");
         }
 
     }
