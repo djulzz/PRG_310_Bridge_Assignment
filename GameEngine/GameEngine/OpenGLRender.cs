@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-     public class OpenGLRender:IRender
+     public class OpenGLRender:IRenderer
     {
         public void Render()
         {

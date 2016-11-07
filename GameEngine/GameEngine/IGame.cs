@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-    interface IGame
+    public interface IGame
     {
         void Render();
     }

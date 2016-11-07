@@ -8,5 +8,6 @@ namespace GameEngine
 {
     interface IRenderer
     {
+        void Render();
     }
 }
