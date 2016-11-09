@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-<<<<<<< HEAD
-   public interface IRender
+    class DirectXRenderer: IRender
     {
-       void Render();
+        public void Render()
+        {
+            Console.WriteLine("Open Direct X Running");
+        }
     }
-
-=======
-    interface IRender
-    {
-    }
->>>>>>> origin/mo-branch
 }
