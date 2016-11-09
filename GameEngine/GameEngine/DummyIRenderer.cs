@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-<<<<<<< HEAD
-   public interface IRender
+    public class DummyIRenderer:IRender
     {
-       void Render();
+        public void Render()
+        {
+            Console.WriteLine("Open Dummy Running");
+        }
     }
-
-=======
-    interface IRender
-    {
-    }
->>>>>>> origin/mo-branch
 }
