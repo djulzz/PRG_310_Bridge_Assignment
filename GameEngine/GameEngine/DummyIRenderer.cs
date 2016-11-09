@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-    interface IRender
+    public class DummyIRenderer:IRender
     {
+        public void Render()
+        {
+            Console.WriteLine("Open Dummy Running");
+        }
     }
 }

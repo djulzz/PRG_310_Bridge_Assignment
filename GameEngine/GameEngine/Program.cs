@@ -10,6 +10,8 @@ namespace GameEngine
     {
         static void Main(string[] args)
         {
+            OpenGLRender renderer = new OpenGLRender();
+            Game GE = new Game(renderer);
         }
     }
 }

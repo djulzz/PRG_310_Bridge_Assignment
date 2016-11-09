@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace GameEngine
 {
-    public interface IGame
+     public class OpenGLRender:IRenderer
     {
-        void Render();
+        public void Render()
+        {
+            Console.WriteLine("Open GL Running");
+        }
+
     }
 }
